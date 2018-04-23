@@ -1,0 +1,40 @@
+﻿<Window
+    x:Class="DXContextMenu_Ex.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+    Height="300" Width="300"
+    Title="Window1">
+    <Grid>
+        <DockPanel>
+            <TextBox
+                x:Name="textEdit1"
+                Width="200"
+                Height="30"
+                Text="right-click this textbox">
+                <dxb:BarManager.DXContextMenu>
+                    <dxb:PopupMenu>
+                        <dxb:PopupMenu.Items>
+                            <dxb:BarButtonItem
+                                Content="Copy"
+                                Glyph="pack://application:,,,/Images/copy16x16.png"
+                                ItemClick="itemCopy_ItemClick" />
+                            <dxb:BarButtonItem
+                                Content="Paste"
+                                Glyph="pack://application:,,,/Images/paste16x16.png"
+                                ItemClick="itemPaste_ItemClick" />
+                            <dxb:BarButtonItem
+                                Content="Undo"
+                                Glyph="pack://application:,,,/Images/undo16x16.png"
+                                ItemClick="itemUndo_ItemClick" />
+                            <dxb:BarButtonItem
+                                Content="Redo"
+                                Glyph="pack://application:,,,/Images/redo16x16.png"
+                                ItemClick="itemRedo_ItemClick" />
+                        </dxb:PopupMenu.Items>
+                    </dxb:PopupMenu>
+                </dxb:BarManager.DXContextMenu>
+            </TextBox>
+        </DockPanel>
+    </Grid>
+</Window>
