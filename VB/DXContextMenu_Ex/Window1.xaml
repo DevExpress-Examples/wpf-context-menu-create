@@ -1,0 +1,28 @@
+﻿<Window x:Class="DXContextMenu_Ex.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Window1" Height="300" Width="300" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Loaded="Window_Loaded">
+    <Grid>
+        <dxb:BarManager CreateStandardLayout="True" Margin="12" Name="barManager1">
+            <dxb:BarManager.Items>
+                <dxb:BarButtonItem x:Name="itemCopy" Content="Copy" Glyph="pack://application:,,,/Images/copy16x16.png" ItemClick="itemCopy_ItemClick" />
+                <dxb:BarButtonItem x:Name="itemPaste" Content="Paste" Glyph="pack://application:,,,/Images/paste16x16.png" ItemClick="itemPaste_ItemClick" />
+                <dxb:BarButtonItem x:Name="itemUndo" Content="Undo" Glyph="pack://application:,,,/Images/undo16x16.png" ItemClick="itemUndo_ItemClick" />
+                <dxb:BarButtonItem x:Name="itemRedo" Content="Redo" Glyph="pack://application:,,,/Images/redo16x16.png" ItemClick="itemRedo_ItemClick" />
+            </dxb:BarManager.Items>
+            <!--region #1-->
+            <DockPanel>
+                <TextBox x:Name="textEdit1" Width="200" Height="30" Text="right-click this textbox" ContextMenu="{x:Null}">
+                    <dxb:BarManager.DXContextMenu>
+                        <dxb:PopupMenuInfo>
+                            <dxb:PopupMenuInfo.ItemLinks>
+                                <dxb:BarButtonItemLink BarItemName="itemCopy" />
+                                <dxb:BarButtonItemLink BarItemName="itemPaste" />
+                                <dxb:BarButtonItemLink BarItemName="itemUndo" />
+                                <dxb:BarButtonItemLink BarItemName="itemRedo" />
+                            </dxb:PopupMenuInfo.ItemLinks>
+                        </dxb:PopupMenuInfo>
+                    </dxb:BarManager.DXContextMenu>
+                </TextBox>
+            </DockPanel>
+            <!--endregion #1-->
+        </dxb:BarManager>
+    </Grid>
+</Window>
