@@ -1,11 +1,11 @@
 ﻿Imports System.Windows
 
 Namespace DXContextMenu_Ex
-    ''' <summary>
-    ''' Interaction logic for App.xaml
-    ''' </summary>
-    Partial Public Class App
-        Inherits Application
+	''' <summary>
+	''' Interaction logic for App.xaml
+	''' </summary>
+	Partial Public Class App
+		Inherits Application
 
-    End Class
+	End Class
 End Namespace
