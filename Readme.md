@@ -6,7 +6,7 @@
 
 # WPF Menu - Display a Context Menu for a Text Box
 
-This example demonstrates how to create a popup menu with Copy, Paste, Undo, Redo commands ([bar items](https://docs.devexpress.com/WPF/6553/controls-and-libraries/ribbon-bars-and-menu/bars/populating-bars/items-and-links)). The menu is displayed when the user right-clicks in the text box.
+This example demonstrates how to create a popup menu with Copy, Paste, Undo, and Redo commands ([bar items](https://docs.devexpress.com/WPF/6553/controls-and-libraries/ribbon-bars-and-menu/bars/populating-bars/items-and-links)). The menu is displayed when the user right-clicks in the text box.
 
 ![WPF Context Menu - Display a Context Menu for a Text Box](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-a-context-menu-with-devexpress-bar-items-e1675/22.2.2%2B/i/wpf-context-menu-devexpress.png)
 
