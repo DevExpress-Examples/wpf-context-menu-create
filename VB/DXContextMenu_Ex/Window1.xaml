@@ -1,4 +1,4 @@
-﻿<Window x:Class="DXContextMenu_Ex.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Window1" Height="300" Width="300" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Loaded="Window_Loaded">
+<Window x:Class="DXContextMenu_Ex.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Window1" Height="300" Width="300" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Loaded="Window_Loaded">
     <Grid>
         <dxb:BarManager CreateStandardLayout="True" Margin="12" Name="barManager1">
             <dxb:BarManager.Items>
