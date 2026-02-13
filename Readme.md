@@ -51,7 +51,7 @@ The [BarManager.DXContextMenu](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ba
 * [Popup Menu](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.PopupMenu)
 * [Bar Items and Links](https://docs.devexpress.com/WPF/6553/controls-and-libraries/ribbon-bars-and-menu/bars/populating-bars/items-and-links)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-context-menu-create&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-context-menu-create&~~~was_helpful=no)
 
